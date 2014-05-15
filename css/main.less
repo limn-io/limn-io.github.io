@@ -1,9 +1,5 @@
 @helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
-body {
-	font-family: @helvetica;
-}
-
 .screen {
 	width: 100%;
 	height: 100%;
@@ -11,9 +7,13 @@ body {
 	border-bottom: 1px #ccc solid;
 }
 
-.masthead {
+.middle {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.masthead {
+	.middle;
 	background-color: #eee;
 
 	text-align: center;
